@@ -34,13 +34,15 @@ export default class Presentation extends React.Component {
             Разработка веб-сервисов на Go
           </Heading>
           <Text margin="10px 0 0" textColor="tertiary" size={1} bold>
-            Технопарк
+            {location.pathname.includes('park') ? 'Технопарк' : ''}
+            {location.pathname.includes('sphere') ? 'Техносфера' : ''}
+            {location.pathname.includes('atom') ? 'Техноатом' : ''}
           </Text>
         </Slide>
         <Slide transition={["fade"]} bgColor="primary">
           <Heading size={5} textColor="secondary">Зачем нужен ещё один язык программирования?</Heading>
           <div style={{display: 'flex'}}>
-            <div style={{width: 400, textAlign: 'left', marginRight: 10}}>
+            <div style={{flex: '1 0 300px', textAlign: 'left', marginRight: 10}}>
               1972 – C<br/>
               1980 – C++<br/>
               1987 – Perl<br/>
