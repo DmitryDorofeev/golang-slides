@@ -34,9 +34,9 @@ export default class Presentation extends React.Component {
             Разработка веб-сервисов на Go
           </Heading>
           <Text margin="10px 0 0" textColor="tertiary" size={1} bold>
-            {location.pathname.includes('park') ? 'Технопарк' : ''}
-            {location.pathname.includes('sphere') ? 'Техносфера' : ''}
-            {location.pathname.includes('atom') ? 'Техноатом' : ''}
+            {location.search.includes('park') ? 'Технопарк' : ''}
+            {location.search.includes('sphere') ? 'Техносфера' : ''}
+            {location.search.includes('atom') ? 'Техноатом' : ''}
           </Text>
         </Slide>
         <Slide transition={["fade"]} bgColor="primary">
