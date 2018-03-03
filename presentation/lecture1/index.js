@@ -11,6 +11,7 @@ import Screencast from './screencast'
 import CourseInfo from './courseInfo'
 import Lectures from './lectures'
 import Homework from './homework'
+import Hackathon from './hackathon'
 
 export default [
   Slide1,
@@ -18,6 +19,7 @@ export default [
   CourseInfo,
   Lectures,
   Homework,
+  Hackathon,
   Slide2,
   Slide3,
   Slide4,
