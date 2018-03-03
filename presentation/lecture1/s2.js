@@ -19,7 +19,7 @@ export default (
         2010 – Rust<br/>
         2014 - Swift<br/>
       </div>
-      <Image src="/assets/langs.png"/>
+      <Image src="/assets/langs.png" height="100%"/>
     </div>
   </Slide>
 );

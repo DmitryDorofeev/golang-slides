@@ -7,9 +7,17 @@ import Slide5 from './s5'
 import Slide6 from './s6'
 import Slide7 from './s7'
 import Slide8 from './s8'
+import Screencast from './screencast'
+import CourseInfo from './courseInfo'
+import Lectures from './lectures'
+import Homework from './homework'
 
 export default [
   Slide1,
+  Screencast,
+  CourseInfo,
+  Lectures,
+  Homework,
   Slide2,
   Slide3,
   Slide4,

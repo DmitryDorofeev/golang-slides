@@ -10,11 +10,11 @@ export default (
     <Code>brew install go</Code>
     <Heading size={6} textColor="secondary">Linux</Heading>
     <CodePane source={`
-      wget --no-check-certificate https://storage.googleapis.com/golang/go1.9.linux-amd64.tar.gz
-      tar -C /usr/local -xzf go1.9.linux-amd64.tar.gz
+      wget --no-check-certificate https://storage.googleapis.com/golang/go1.10.linux-amd64.tar.gz
+      tar -C /usr/local -xzf go1.10.linux-amd64.tar.gz
       echo 'export PATH=$PATH:/usr/local/go/bin
       export GOPATH=$HOME/GO
       export PATH=$PATH:$GOPATH/bin' >> /etc/profile
-      `}/>
+    `}/>
   </Slide>
 );
